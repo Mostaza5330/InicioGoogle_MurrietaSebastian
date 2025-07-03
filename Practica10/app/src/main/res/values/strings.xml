@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PracticaAutenticacionMurrietaS</string>
+    <string name="login_label"><u>¿No tienes una cuenta? Haz clic aquí</u></string>
+</resources>
