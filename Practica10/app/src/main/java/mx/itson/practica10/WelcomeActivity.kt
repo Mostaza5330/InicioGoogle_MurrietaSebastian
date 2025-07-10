@@ -39,8 +39,8 @@ class WelcomeActivity : AppCompatActivity() {
     }
 
     private fun setupUI() {
-        val evCorreo: TextView = findViewById(R.id.evCorreo)
-        val evProveedor: TextView = findViewById(R.id.evProveedor)
+        val evCorreo: TextView = findViewById(R.id.tvUserEmail)
+        val evProveedor: TextView = findViewById(R.id.tvAuthProvider)
 
         // Obtener datos del Intent o de SharedPreferences
         val mail = intent.getStringExtra("mail") ?: sharedPreferences.getString("user_email", "No disponible")

@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
-        findViewById<MaterialCardView>(R.id.btnLoginGoogle).setOnClickListener {
+        findViewById<MaterialCardView>(R.id.cvGoogleSignIn).setOnClickListener {
             signInWithGoogle()
         }
 
